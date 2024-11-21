@@ -1,0 +1,17 @@
+{
+  "name": "dars-34",
+  "version": "1.0.0",
+  "main": "index.js",
+
+  "scripts": {
+    
+     "tail": "npx tailwindcss -i ./src/style.css -o ./src/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

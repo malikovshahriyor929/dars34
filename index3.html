@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main
+      class="grid items-start grid-cols-[1fr_3.5fr_1.5fr] max-[1062px]:grid-cols-1 gap-5 w-[100%] m-auto"
+    >
+      <input class="hidden" id="check" type="checkbox" />
+      <header class="header z-40 mt-0 py-6 w-[90%] m-auto">
+        <div class="flex sticky top-0 flex-col gap-6 items-center">
+          <a href="./index.html">
+            <img class="h-35" src="./src/assets/svg/Logo (2).svg" alt="" />
+          </a>
+          <div class="absolute close top-7 left-7">
+            <label for="check">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </div>
+          <div class="flex flex-col gap-3">
+            <a class="flex items-center gap-3 hover:text-1" href="./index.html">
+              <img src="./src/assets/svg/link1.svg" alt="" />
+              <h3 class="text-[24px]">Пицца</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="./index3.html">
+              <img src="./src/assets/svg/link2.svg" alt="" />
+              <h3 class="text-[24px]">Сеты</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link3.svg" alt="" />
+              <h3 class="text-[24px]">WOK</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link4.svg" alt="" />
+              <h3 class="text-[24px]">Роллы</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link5.svg" alt="" />
+              <h3 class="text-[24px]">Суши</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link6.svg" alt="" />
+              <h3 class="text-[24px]">Салаты</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link7.svg" alt="" />
+              <h3 class="text-[24px]">Супы</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link8.svg" alt="" />
+              <h3 class="text-[24px]">Корн доги</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link9.svg" alt="" />
+              <h3 class="text-[24px]">Напитки</h3>
+            </a>
+            <a class="flex items-center gap-3 hover:text-1" href="#">
+              <img src="./src/assets/svg/link10.svg" alt="" />
+              <h3 class="text-[24px]">Акции</h3>
+            </a>
+          </div>
+        </div>
+      </header>
+      <div
+        class="fixed menu_bar z-50 bg-8 flex bottom-0 left-0 w-[100%] p-1 justify-around"
+      >
+        <label
+          class="flex flex-col items-center hover:scale-[1.1] transition-[0.5s] hover:shadow-md p-2 rounded-md"
+          for="check"
+        >
+          <img src="./src/assets/svg/menu.svg" alt="" />
+          <p class="font-medium text-[14px]">Меню</p>
+        </label>
+        <label
+          class="flex flex-col items-center hover:scale-[1.1] transition-[0.5s] hover:shadow-md p-2 rounded-md"
+          for="loca"
+        >
+          <img src="./src/assets/svg/korzinka.svg" alt="" />
+          <p class="font-medium text-[14px]">Корзина</p>
+        </label>
+        <label
+          class="flex flex-col items-center hover:scale-[1.1] transition-[0.5s] hover:shadow-md p-2 rounded-md"
+          for="#"
+        >
+          <img src="./src/assets/svg/comment.svg" alt="" />
+          <p class="font-medium text-[14px]">Отзывы</p>
+        </label>
+      </div>
+      <section class="content max-[527px]:bg-2 w-[100%] px-5 mb-8">
+        <!-- content links   -->
+
+        <div
+          class="m-auto bg-8 rounded-lg p-2 max-[1062px]:flex max-[1062px]:items-center max-[323px]:p-[2px]"
+        >
+          <div class="hidden max-[1062px]:block">
+            <a href="#">
+              <img
+                class="max-[527px]:hidden"
+                src="./src/assets/svg/Logo (4).svg"
+                alt=""
+              />
+              <img
+                class="hidden max-[527px]:block"
+                src="./src/assets/svg/logo (5).svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div
+            class="border-b-3 max-[1062px]:border-none flex items-center justify-between"
+          >
+            <div class="flex items-center">
+              <div
+                class="flex flex-col items-center border-r max-[1062px]:border-none p-3 max-[1062px]:flex-row max-[1062px]:gap-6 max-[415px]:gap-3 max-[341px]:p-1 max-[323px]:p"
+              >
+                <div class="flex flex-col items-center max-[393px]:p-0">
+                  <p
+                    class="font-medium max-[415px]:text-[14px] max-[323px]:text-[12px]"
+                  >
+                    Наш телефон
+                  </p>
+                  <a
+                    class="text-1 font-semibold max-[415px]:text-[14px] max-[323px]:text-[12px]"
+                    href="tel:+996 705 188 955
+                              "
+                    >+996 705 188 955</a
+                  >
+                  <a
+                    class="text-1 font-semibold max-[415px]:text-[14px] max-[323px]:text-[12px]"
+                    id="num"
+                    href="tel:+996 555 188 955"
+                    >+996 555 188 955</a
+                  >
+                </div>
+                <div>
+                  <p
+                    class="flex items-center gap-2 text-[14px] font-medium text-4 max-[1062px]:text-center max-[1062px]:flex-col max-[415px]:text-[12px] max-[323px]:text-[10px] max-[323px]:gap-0"
+                  >
+                    <img src="./src/assets/svg/clock.svg" alt="" />
+                    работаем <br class="hidden max-[1062px]:block" />
+                    с 10:00 до 00:00
+                  </p>
+                </div>
+              </div>
+              <div class="p-3 max-[1062px]:hidden">
+                <span class="font-light text-[14px] text-4">Город:</span>
+                <p class="font-normal text-[18px]">Бишкек</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <p class="text-[18px] max-[1062px]:hidden font-normal text-3">
+                Отзывы
+                <span id="Доставка" class="text-1">Доставка и оплата</span>
+              </p>
+
+              <img
+                class="max-[415px]:h-[25px] max-[365px]:hidden"
+                src="./src/assets/svg/Search_ico.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- swiper  -->
+
+        <div>
+          <!-- need txt  -->
+          <div class="flex gap-4 mb-5">
+            <img src="./src/assets/svg/link2.svg" alt="" />
+            <p class="text-[34px] max-[323px]:text-[20px] font-medium">Сеты</p>
+          </div>
+
+          <!-- need  -->
+
+          <div class="relative flex flex-col max-[447px]:gap-5">
+            <div
+              class="flex gap-3 justify-between max-[700px]:justify-around max-[527px]:gap-5 flex-wrap bg-8 p-5 rounded-lg max-[447px]:flex-col max-[447px]:gap-5"
+            >
+              <!-- index2 1 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 2 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set2.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Филадельфия и
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 3  don't work only pc version -->
+              <div
+                class="w-[30%] max-[700px]:hidden max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сеt
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 4 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 5 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-3 justify-between max-[700px]:justify-around max-[527px]:gap-5 flex-wrap bg-8 p-5 rounded-lg max-[447px]:flex-col"
+            >
+              <!-- index2 1 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 2 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set2.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Филадельфия и
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 3  don't work only pc version -->
+              <div
+                class="w-[30%] max-[700px]:hidden max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сеt
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 4 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 5 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-3 justify-between max-[700px]:justify-around max-[527px]:gap-5 flex-wrap bg-8 p-5 rounded-lg max-[447px]:flex-col"
+            >
+              <!-- index2 1 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 2 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set2.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Филадельфия и
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 3  don't work only pc version -->
+              <div
+                class="w-[30%] max-[700px]:hidden max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сеt
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 4 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 5 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-3 justify-between max-[700px]:justify-around max-[527px]:gap-5 flex-wrap bg-8 p-5 rounded-lg max-[447px]:flex-col"
+            >
+              <!-- index2 1 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 2 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set2.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Филадельфия и
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 3  don't work only pc version -->
+              <div
+                class="w-[30%] max-[700px]:hidden max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сеt
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 4 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 5 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex gap-3 justify-between max-[700px]:justify-around max-[527px]:gap-5 flex-wrap bg-8 p-5 rounded-lg max-[447px]:flex-col max-[447px]:gap-6"
+            >
+              <!-- index2 1 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 2 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set2.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Филадельфия и
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 3  don't work only pc version -->
+              <div
+                class="w-[30%] max-[700px]:hidden max-[447px]:w-[90%] max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сеt
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 4 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set3.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- index2 5 -->
+              <div
+                class="w-[30%] max-[527px]:w-[40%] max-[447px]:w-[90%] cc hidden max-[527px]:block max-[447px]:px-3"
+              >
+                <img src="./src/assets/img/set1.png" alt="" />
+                <h4 class="text-[24px] max-xl:text-[18px] font-medium">
+                  Саломон сет
+                </h4>
+                <div>
+                  <span
+                    class="text-[18px] max-xl:text-[14px] font-normal text-4 pb-2"
+                    >1050 грамм, 30 кусочков</span
+                  >
+                  <hr class="bg-2" />
+                  <div class="flex items-center gap-2 mt-3">
+                    <p class="max-xl:text-[18px] font-bold">1500СОМ</p>
+                    <a href="./index2.html">
+                      <button
+                        class="need rounded-md xl:px-[42px] max-xl:px-[15px] md:py-[5px] max-xl:py-1: bg-5"
+                      >
+                        <p
+                          class="text-[24px] max-lg:text-[18px] font-medium text-2"
+                        >
+                          Хочу!
+                        </p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- txt  -->
+        </div>
+        <div class="mt-5 pt-5 txts">
+          <h2 class="font-bold text-[24px] text-4 pb-3">
+            Заказать суши в Бишкеке
+          </h2>
+          <div class="text-4 text-[18px]">
+            <p class="pb-2">
+              Ресторан “Суши и Лапша” предлагаем своим клиентам самые вкусные
+              суши с доставкой на дом, приготовленные по классическим и
+              адаптированным к европейской аудитории рецептам, а также
+              собственным наработкам наших поваров. Мы ценим время наших
+              клиентов, поэтому вы можете заказать суши в Харькове с доставкой
+              на дом или в офис.
+            </p>
+            <h4 class="pb-2">В нашем меню более 20 видов суши:</h4>
+            <ul class="pb-2 list-disc pl-[20px]">
+              <li>Классические с сырым лососем, тунцом, окунем.</li>
+              <li>Экзотические с тигровой креветкой, морским гребешком.</li>
+              <li>Пикантные с копченым лососем, угрем.</li>
+            </ul>
+            <p class="pb-2">
+              В меню также представлены гунканы: с начинкой из красной икры и
+              тобико, а также феликсы, где японский майонез сочетается с рыбой,
+              морепродуктами, угрем. Любители острых блюд могут купить суши с
+              соусом спайси. Популярные начинки — копченая курица, снежный краб,
+              креветки, гребешки, тунец, лосось и окунь.
+            </p>
+          </div>
+          <div class="flex items-center gap-2 justify-center">
+            <p class="text-5 text-[24px]">Подробнее</p>
+            <img class="pt-1" src="./src/assets/svg/arrow_down.svg" alt="" />
+          </div>
+        </div>
+        <footer
+          class="footer mt-10 border-t-2 flex justify-between pt-5 pb-7 max-[527px]:flex-col max-[527px]:items-center max-[527px]:border-none max-[527px]:gap-3 max-[527px]:text-center"
+        >
+          <div class="max-[681px]:hidden">
+            <ul class="flex flex-col gap-3">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#Доставка">Доставка и оплата</a></li>
+              <li><a href="#">Лента материалов</a></li>
+              <li><a href="#"></a>Политика возврата</li>
+            </ul>
+          </div>
+          <div
+            class="flex border-l-2 pl-10 flex-col gap-3 max-[527px]:border-none"
+          >
+            <a href="#num" class="text-[18px] font-medium max-[527px]:hidden"
+              >Введите номер</a
+            >
+            <input
+              required
+              min="9"
+              class="outline-none max-[527px]:hidden"
+              placeholder="+996 (__) ___ __ __"
+              type="number"
+            />
+            <p class="text-[18px] text-4">
+              Выберите удобный <br />
+              мессенджер для общения
+            </p>
+            <div class="flex gap-4">
+              <img src="./src/assets/svg/whatsup.svg" alt="" />
+              <img src="./src/assets/svg/telegram.svg" alt="" />
+              <img src="./src/assets/svg/insta.svg" alt="" />
+            </div>
+          </div>
+          <div class="border-l-2 pl-10 max-[527px]:border-none">
+            <ul class="flex flex-col gap-3 text-[18px] text-4 font-normal">
+              <li><a href="tel:+996 705 188 955 ">Тел:+996 705 188 955 </a></li>
+              <li><a href="tel:+996 555 188 955 ">Тел:+996 555 188 955 </a></li>
+              <li><a href="#location">Адрес:Бакаева 126</a></li>
+            </ul>
+          </div>
+        </footer>
+      </section>
+
+      <input id="loca" type="checkbox" />
+      <section class="order">
+        <div
+          class="bg-2 text-center my-5 w-[90%] pt-[10px] m-auto rounded-[10px]"
+        >
+          <h2 class="text-[24px] font-medium">Ваша корзина пуста.</h2>
+          <p class="text-4 text-[18px] pt-3 py-5">
+            Добавьте же скорее что-нибудь!
+          </p>
+          <div
+            class="bg-1 cursor-pointer text-[14px] text-[#fff] rounded-[0_0_10px_10px] py-5"
+          >
+            Бесплатная доставка от 800 СОМ
+          </div>
+        </div>
+        <div id="location" class="flex flex-col items-center">
+          <iframe
+            class="h-[116px] rounded-[5px_5px_0px_0px] w-[90%] m-auto"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333259.1345283634!2d74.58428743269099!3d42.870389550190474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dc91b3c881%3A0x492ebaf57cdee27d!2sBishkek%2C%20Qirg%CA%BBiziston!5e0!3m2!1suz!2s!4v1731604862261!5m2!1suz!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="bg-2 rounded-[0px_0px_6px_6px] w-[90%]">
+            <div class="text-center flex p-2 flex-col items-center mt-[-40px]">
+              <img
+                class="h-[60px] w-[60px]"
+                src="./src/assets/svg/location.svg"
+                alt=""
+              />
+              <p class="font-medium text-[24px]">Укажите адрес</p>
+              <span class="font-normal text-[18px] text-4"
+                >И узнайте время доставки</span
+              >
+            </div>
+          </div>
+          <div class="absolute close top-7 right-7">
+            <label for="loca">
+              <i class="fa-solid fa-xmark"></i>
+            </label>
+          </div>
+        </div>
+        <!-- <label for="./index.html">
+          <div  class="fixed bottom-7 right-7 bg-1 px-4 py-4 rounded-[50%] ">
+            <i class="fa-solid fa-chevron-up text-8 text-[24px]"></i>
+          </div>
+        </label> -->
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "horizontal",
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+      });
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+        // breakpoints: {
+        //   280: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 20,
+        //   },
+        //   768: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 40,
+        //   },
+        //   1024: {
+        //     slidesPerView: 3,
+        //     spaceBetween: 10,
+        //   },
+        // },
+      });
+    </script>
+  </body>
+</html>
